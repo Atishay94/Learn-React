@@ -1,7 +1,7 @@
 import {useState, useEffect} from "react"
 
 // design custom hooks {5:34:30}
-
+// created custum hook
 function useCurrencyInfo(currency){
     const [data, setData] = useState({})
     useEffect(() => {
