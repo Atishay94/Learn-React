@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import { useEffect } from 'react';
+import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 
 function Github() {
@@ -8,7 +7,7 @@ function Github() {
     // useEffect(() => {
     //   fetch('https://api.github.com/users/Atishay94')
     //   .then((res) => res.json())
-    //   .then(data => {
+    //   .               (data => {
     //     console.log(data);
     //     setData(data)
     //   })

@@ -7,7 +7,7 @@ function Layout() {
   return (
     <>
       <Header />
-      <Outlet />
+      <Outlet /> // we can do nesting using the react-router-dom 
       <Footer />
     </>
   )
